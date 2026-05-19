@@ -11,11 +11,11 @@ await expect(page).not.toHaveTitle(/playwright/)
 const pageHeading= page.locator('h1')
 await expect (pageHeading).toBeVisible()
 
-//await expect(page.locator('h6')).toBeVisible()
+await expect(page.locator('h6')).toBeVisible()
 //If if fails , will not execute remaining steps
 //to continue using soft assertion
 
-await expect.soft(page.locator('h6')).toBeVisible()
+//await expect.soft(page.locator('h6')).toBeVisible()
 
 console.log('Page header text: ', await pageHeading.textContent())
 await expect (pageHeading).toContainText('Automation Testing Practice')
