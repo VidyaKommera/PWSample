@@ -1,0 +1,18 @@
+
+{
+    "products":
+    [
+        {
+            "name": "Samsung galaxy s6"
+        },
+        {
+            "name": "Nokia lumia"
+        },
+        {
+            "name": "Nexus"
+        }
+        
+
+    ]
+
+}

@@ -1,0 +1,352 @@
+{
+  "config": {
+    "configFile": "C:\\workspace\\playwrightTSWS\\PWSample\\playwright.config.ts",
+    "rootDir": "C:/workspace/playwrightTSWS/PWSample/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/workspace/playwrightTSWS/PWSample/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "setup",
+        "name": "setup",
+        "testDir": "C:/workspace/playwrightTSWS/PWSample/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.setup.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/workspace/playwrightTSWS/PWSample/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "DemoBlaze",
+        "name": "DemoBlaze",
+        "testDir": "C:/workspace/playwrightTSWS/PWSample/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*demoblaze.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "global.setup.ts",
+      "file": "global.setup.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Demoblaze Login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "setup",
+              "projectName": "setup",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6674,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-11T08:32:40.804Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\workspace\\playwrightTSWS\\PWSample\\test-results\\global.setup.ts-Demoblaze-Login-setup\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e4eb4d1272d956fb120f-b045330953c200cc4283",
+          "file": "global.setup.ts",
+          "line": 4,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "title": "demoblaze.spec.ts",
+      "file": "demoblaze.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "CheckOut Order",
+          "file": "demoblaze.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "ADD product Samsung galaxy s6 to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "DemoBlaze",
+                  "projectName": "DemoBlaze",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10120,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-11T08:32:51.889Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\workspace\\playwrightTSWS\\PWSample\\test-results\\demoblaze-CheckOut-Order-A-d67d4-t-Samsung-galaxy-s6-to-cart-DemoBlaze\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "affc45f938d63df95792-a3ba14344a25e2605d46",
+              "file": "demoblaze.spec.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "ADD product Nokia lumia to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "DemoBlaze",
+                  "projectName": "DemoBlaze",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8894,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-11T08:33:03.003Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\workspace\\playwrightTSWS\\PWSample\\test-results\\demoblaze-CheckOut-Order-ADD-product-Nokia-lumia-to-cart-DemoBlaze\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "affc45f938d63df95792-192288ce68b42d7ee1c3",
+              "file": "demoblaze.spec.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "ADD product Nexus to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "DemoBlaze",
+                  "projectName": "DemoBlaze",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7614,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-11T08:33:11.940Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\workspace\\playwrightTSWS\\PWSample\\test-results\\demoblaze-CheckOut-Order-ADD-product-Nexus-to-cart-DemoBlaze\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "affc45f938d63df95792-782ed919f1b0bff3ac4d",
+              "file": "demoblaze.spec.ts",
+              "line": 12,
+              "column": 5
+            },
+            {
+              "title": "Delete from cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "DemoBlaze",
+                  "projectName": "DemoBlaze",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 20351,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-11T08:33:19.592Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\workspace\\playwrightTSWS\\PWSample\\test-results\\demoblaze-CheckOut-Order-Delete-from-cart-DemoBlaze\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "affc45f938d63df95792-9c02599480ed57759e5c",
+              "file": "demoblaze.spec.ts",
+              "line": 29,
+              "column": 5
+            },
+            {
+              "title": "Place order and confirm",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "DemoBlaze",
+                  "projectName": "DemoBlaze",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4776,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-11T08:33:40.115Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\workspace\\playwrightTSWS\\PWSample\\test-results\\demoblaze-CheckOut-Order-Place-order-and-confirm-DemoBlaze\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "affc45f938d63df95792-d667968771ea32c9181d",
+              "file": "demoblaze.spec.ts",
+              "line": 39,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-11T08:32:37.190Z",
+    "duration": 68390.603,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

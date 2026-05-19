@@ -1,0 +1,24 @@
+{
+   
+  "id": 0,
+  "category": {
+    "id": 1,
+    "name": "dog"
+  },
+  "name": "Pet Store",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "Lab"
+    },
+{
+      "id": 1,
+      "name": "Golden Retriever"
+    }
+  ],
+  "status": "available"
+  
+}
