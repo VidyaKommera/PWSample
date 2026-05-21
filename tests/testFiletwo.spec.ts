@@ -4,5 +4,7 @@ const val=10
 expect(val).toBeGreaterThan(5)
 console.log("Phase2 push"),
  console.log('main push')
+
+   console.log('Pull push')
  })
 
